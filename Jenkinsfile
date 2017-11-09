@@ -1,4 +1,4 @@
-node("mavenwithnexuspvc") {
+node("mavenwithnexus") {
   checkout scm
 
   stage("Test") {
