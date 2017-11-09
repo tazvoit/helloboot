@@ -52,12 +52,14 @@
           <plugin>
             <groupId>io.fabric8</groupId>
             <artifactId>fabric8-maven-plugin</artifactId>
+            <!-- FIXME - this need to be moved to stable version once the import PR is merged -->
             <version>3.5-SNAPSHOT</version>
             <executions>
               <execution>
                 <id>fmp</id>
                 <goals>
                   <goal>resource</goal>
+                  <goal>build</goal>
                 </goals>
               </execution>
             </executions>
